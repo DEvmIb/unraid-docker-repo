@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Container version="2">
+<Name>EasyEPG Alpine Based</Name>
+<Overview>Download EPG Data in xmltv Format.</Overview>
+<Date>2025-09-25</Date>
+<Changes>
+</Changes>
+<Registry>https://hub.docker.com/r/ad0lar/easyepg-e4m</Registry>
+<Repository>ad0lar/easyepg-e4m</Repository>
+<Project>https://github.com/DEvmIb/unraid-docker-repo</Project>
+<Privileged>false</Privileged>
+<Support>https://github.com/DEvmIb/unraid-docker-repo</Support>
+<Network default="host">bridge</Network>
+<Icon>https://raw.githubusercontent.com/DEvmIb/unraid-docker-repo/master/icons/master.jpg</Icon>
+<Category>Productivity: Status:Stable</Category>
+<Config Name="Timezone" Target="TZ" Default="Europe/Berlin" Mode="" Description="Timezone" Type="Variable" Display="always" Required="true" Mask="false">Europe/Berlin</Config>
+<Config Name="Path" Target="/easyepg" Default="" Mode="rw" Description="Path /easyepg" Type="Path" Display="always" Required="false" Mask="false">/mnt/cache/docker/appdata/easyepg</Config>
+<Config Name="Port" Target="4000" Default="4000" Mode="tcp" Description="Port" Type="Port" Display="always" Required="false" Mask="false">4000</Config>
+</Container>

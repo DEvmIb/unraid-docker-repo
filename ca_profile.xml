@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Maintainer>
+  <Icon>https://raw.githubusercontent.com/DEvmIb/unraid-docker-repo/master/icons/master.jpg</Icon>
+  <Profile>
+    Ad0lar's docker Images for Unraid.
+  </Profile>
+  <DonateLink>https://www.paypal.me/betaface</DonateLink>
+  <DonateText>THX, all Money goes into Developing and Hardware for my Build Farm</DonateText>
+</Maintainer>
